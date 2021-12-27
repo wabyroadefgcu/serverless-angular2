@@ -51,9 +51,10 @@ Thumbs.db
 # Sanity.io
 backend/node_modules/
 backend/dist
-
 backend2/node_modules/
 backend2/dist
+*/node_modules/
+*/dist
 
 # Logs
 logs
