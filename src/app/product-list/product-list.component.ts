@@ -16,6 +16,11 @@ export class ProductListComponent implements OnInit {
     description: 'test',
   };
 
+  triggerCreateCheckout(product: Product): void {
+    console.debug("Product: " + product.name);
+    console.debug(product);
+  }
+
   constructor() {}
 
   ngOnInit(): void {}
